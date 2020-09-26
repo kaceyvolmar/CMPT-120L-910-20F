@@ -35,3 +35,6 @@ def number():
 		print("Your Future: You will meet someone famous soon.")
 
 number()
+
+
+
