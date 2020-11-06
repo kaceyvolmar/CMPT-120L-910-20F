@@ -9,13 +9,12 @@ def prime_or_composite(number):
     if number > 1:
         for i in range (2, number):
             if number % i == 0:
-			    print(number, "= Composite")
-			    break
+                return "Composite"
+                break
         else:
-            print(number, "= Prime")
+            return "Prime"
     else:
-        print(number, "= Composite")
-    pass
+        return "Composite"
     
     
 
@@ -27,10 +26,4 @@ if __name__ == "__main__":
     for number in numbers:
         answers.append(prime_or_composite(number))
     
- 
- 
- 
- 
- 
- 
- #    print(answers)
+    print(answers)
