@@ -8,14 +8,10 @@ def sum_2d_array(two_d_array):
     
     - If a sub array is empty the sum is 0
     """
-    rows = len(two_d_array)
-    cols = len(two_d_array[0])
-
-    for i in range(0, rows):
-        sumrow = 0
-        for k in range(0, cols):
-            sumrow = sumrow + two_d_array[i][k]
-        return sumrow 
+    arr = []
+    for array in two_d_array:
+        arr.append(sum(array))
+    return arr
 
     
 
