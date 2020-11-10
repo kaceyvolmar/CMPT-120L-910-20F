@@ -27,3 +27,6 @@ if __name__ == "__main__":
         answers.append(prime_or_composite(number))
     
     print(answers)
+
+
+    
