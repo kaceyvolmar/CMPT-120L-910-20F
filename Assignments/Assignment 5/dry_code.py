@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 check_per = 0.85
 save_per = 0.15
 zero = 0.0
@@ -22,7 +22,7 @@ def saturdays_bank_transactions(transactions):
 
 
 	return checkings, savings
-=======
+
 # We're looking to find out how much money we have after a day with friends on Saturday. 
 # Our code does the trick but we learned about keeping out code DRY recently and want to make it more efficent by making it DRY.
 # I want you to accomplish this by making functions where you see repeated code. 
@@ -50,13 +50,13 @@ def saturdays_bank_transactions(transactions) -> Tuple[float, float]:
         process_transaction(charge)
 
     return checking, savings
->>>>>>> upstream/master
+
 
 if __name__ == "__main__":
     transations = [300.00, -50.00, -5.00, -20, 15.72, 2083.93, -1034.00, -420.00, -5.23, -15.93, -72.90]
     new_balance = saturdays_bank_transactions(transations)
-<<<<<<< HEAD
+
     print("Your new checking balance is:", '${:.2f}'.format(round(new_balance[0], 2)), "\n", "Your new savings balance is:", '${:.2f}'.format(round(new_balance[1], 2)))
-=======
+
     print("Your new checking balance is:", '${:.2f}'.format(round(new_balance[0], 2)), "\n", "Your new savings balance is:", '${:.2f}'.format(round(new_balance[1], 2)))
->>>>>>> upstream/master
+
