@@ -1,5 +1,4 @@
-#Write a function which will sum a range of integers starting from one going up and
-including a value entered by the user. Return the sum.
+#Write a function which will sum a range of integers starting from one going up and including a value entered by the user. Return the sum.
 
 start = int(input("Starting Number: "))
 length = int(input("Amount of Numbers added: "))
@@ -16,8 +15,7 @@ print(addition(start, yes))
 
 
 
-#Write a main function which takes a number entered by the user and calls the function,
-outputting the result to the user with a print statement.
+#Write a main function which takes a number entered by the user and calls the function,outputting the result to the user with a print statement.
 
 print("\n")
 fav_num = int(input("Favorite Number: "))
