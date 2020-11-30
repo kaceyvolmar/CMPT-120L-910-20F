@@ -1,0 +1,21 @@
+header {
+    background-color: red;
+    padding: 10px;
+}
+
+
+header h1.logo {
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+}
+
+
+.main {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
