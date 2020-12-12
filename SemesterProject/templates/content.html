@@ -1,11 +1,140 @@
 {% include 'header.html' %}
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-5 text-center my-5">
-            <h1>Content</h1>
+<div class="container-fluid p-3">
+    <div class="text-left-right-center">
+        <div class="bg-dark">
+            <span class="left-text names">no carnivals,</span>
+            <span style="color:white; font-size:70px;">GAME TIME BBY</span>
+            <span class="right-text names">no games.</span>
         </div>
     </div>
 </div>
+
+
+
+<div class="container directions">
+    <h3 style="font-size:35px;">See how well you know Cody, Noel, and their content by taking this quiz!</h3>
+    <h2 style="font-size:20px;">(Must keep track of up your answers to know how many you got correct.)</h2>
+</div>
+
+<hr>
+
+
+<form href="http://127.0.0.1:5000/answers" method="post" id="quiz">
+    <ol style="margin-left: 10px;">
+        <li>
+            <strong>An app that they have no idea about, is definitly is not cool, and they cannot pronounce:</strong><br>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) Tik Tok</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) Facebook</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) Reddit</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) Musically</label>
+            </div>
+        </li>
+        <br>
+        <li>
+
+            <strong></b>"Yo Skyra, Tyra, and Kyler are smoking a ______ right now you wanna hit that shit or what?”   “ARE YOU INSANE I usually max out at ______!”</strong><br>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) blunt, hald a blunt</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) whippit, cough syrup</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) illadelph, one hitters</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) 50 nic, 25</label>
+            </div>
+        </li>
+        <br>        
+        
+        <li>
+
+            <strong></b>Girl says: “I feel like I think in feelings and see this world through _____ and that’s why I need to like have you talk to me”  <i class="fa fa-indent" aria-hidden="true"></i>  Guy responds: “_____.” </strong><br>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) sight, say less queen</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) birds, Huh I'm lost</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) squirrels, Wtf</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) conversation, That's hot</label>
+            </div>
+        </li>
+        <br>
+        <li>
+            <strong></b>On the TMG podcast they discuss all of the following, but which of the following was an iconic guest:</strong><br>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) Mathew McConaughey</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) Lil Xan</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) Carrington Rodregrez</label>
+            </div>
+
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) Jake Paul</label>
+            </div>
+        </li>        
+        
+    </ol>
+    <a href="http://127.0.0.1:5000/answers" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin-left:20px; text-emphasis:10px;">Submit</a>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</form>
+
+
+
+
+
+
+
 
 {% include 'footer.html' %}

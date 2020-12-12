@@ -1,21 +1,118 @@
-header {
-    background-color: red;
-    padding: 10px;
+
+
+.names {
+    font-size: 55px;
+    font-family: cursive;
+    color: black;
+    -webkit-text-fill-color: rgb(101, 204, 238); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+}
+
+.intro{
+    font-size: 20px; 
+    text-align: center;
+    background-color:rgb(101, 204, 238); 
+    color:black; 
+    padding:34px; 
+    width:1350px;
 }
 
 
-header h1.logo {
-    font-size: 1.7em;
-    text-align: center;
+.text {
+    font-family: 'Monaco', monospace;
+    font-size: 50px;
+}
+
+.para {
+    font-size:20px;
+    font-family: 'Courier New', monospace;
+    text-align: justify;
+    margin-left:0px;
+}
+
+body {
+    background-color: white;
+}
+
+.footer {
     color: white;
+    background-color: #343A40;
+    padding: 10px;
+    word-break: 20px;
 }
 
-
-.main {
+.spacing {
+    word-spacing: 30px; 
+    width: 120px;  
+    tab-size: 4;
+    text-decoration: underline;
+    color: rgb(101, 204, 238); 
     text-align: center;
-    color: red;
 }
 
-h1 {
-    color: blue;
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.directions{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.text-left-right-center {
+    text-align: center;
+    position: relative;
+}
+.left-text {
+    left: 20px;
+    position: absolute;
+    top:10px;
+}
+
+.right-text {
+    right: 20px;
+    position: absolute;
+    top:10px;
+}
+
+.img1{
+    float:right;
+    margin-left: 10px;
+}
+
+.img2{
+    float:left;
+    margin-right: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.abt{
+    margin-left:10px; 
+    font-size:25px;"
+}
+
+li{
+    font-size:25px;
+}
+
+
+
+.back {
+    background-image: url(https://cdn.hipwallpaper.com/m/29/6/dqJPfM.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    opacity: 50px;
 }

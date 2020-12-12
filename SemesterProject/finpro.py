@@ -1,7 +1,6 @@
 import logging
 from flask import Flask, render_template
 
-
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
 
@@ -14,19 +13,23 @@ def index():
 
 @app.route('/cody')
 def cody():
-    app.logger.info("Switching to Cody Page.")
+    app.logger.info("Switching to Codel Page.")
     return render_template('cody.html')
 
-@app.route('/noel')
-def noel():
-    app.logger.info("Switching to Noel Page.")
-    return render_template('noel.html')
 
 
 @app.route('/content')
 def content():
     app.logger.info("Switching to Content Page.")
     return render_template('content.html')
+
+
+
+@app.route('/answers')
+def answers():
+    app.logger.info("Switching to Answers Page.")
+    return render_template('answers.html')
+
 
 @app.route('/404')
 def four_oh_four():
@@ -37,3 +40,5 @@ def four_oh_four():
 def page_not_found(error):
     app.logger.warning("Switching to 404 Page.")
     return render_template('four_oh_four.html'), 404
+
+
